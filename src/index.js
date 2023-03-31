@@ -1,6 +1,8 @@
 const container = document.querySelector(".container");
 import './styles.css';
 
+//hey!
+
 import { createAboutContent } from './about.js';
 import { createMenuContent } from './menu.js';
 import { createContactSection } from './contact.js';
