@@ -13,14 +13,19 @@
     text-align: center;
     background-color: rgb(202, 177, 226);
     padding: 5rem;
+    font-size: 3rem;
+    font-weight: bolder;
 }
 .sidebar {
     font-size: 1.5rem;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    position: sticky;
-    top: 2rem;
+    position: fixed;
     display: flex;
     flex-direction: column;
+}
+
+.main-content {
+    font-size: 1.5rem;
 }
 
 .about {
@@ -65,13 +70,32 @@
     translate: 1rem;
 }
 
-.middle-container {
-    display: flex;
-    gap: 4rem;
+
+.menu-content-ol {
+    padding: 1rem 0 1rem 1rem;
+}
+
+.menu-content-ol li::marker {
+    color: hs1(340 50% 50%);
+    font-weight: 900;
+    font-size: 0.8em;
+}
+
+.menu-content-ol li::first-letter {
+    font-size: 200%;
+    color: #8A2BE2;
+}
+
+.image-fish {
+    margin: 0 auto;
+    text-align: center;
+    padding: 5rem 5rem 5rem 10rem;
 }
 
 .footer {
     text-align: center;
     background-color: rgb(202, 177, 226);
-    padding: 5rem;
+    padding: 5rem 0 5rem 10rem;
+    font-size: 1.5rem;
+    font-style: italic;
 }
